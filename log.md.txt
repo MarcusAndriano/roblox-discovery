@@ -1,0 +1,7 @@
+# Project log
+
+## Oct 13
+- Starting hypothesis: Players struggle to find new, high-quality experiences
+  because discovery surfaces favor games that are already popular.
+- Set up folder, Anaconda, Git.
+
