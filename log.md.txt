@@ -3,5 +3,36 @@
 ## Oct 13
 - Starting hypothesis: Players struggle to find new, high-quality experiences
   because discovery surfaces favor games that are already popular.
-- Set up folder, Anaconda, Git.
+- Set up folder, Anaconda, GitHub Desktop.
+
+## Oct 16 — New-user walkthrough
+Fresh account, incognito Chrome, US, computer.
+
+| Surface | What it shows | Example games (rating, active) | Anything new (<6 months)? |
+|---|---|---|---|
+| Home – Recommended For You | Algorithm picks; first games shown are mostly new, very popular games | Steal An Egg: 91%, 1.3M active; Huss Valley: 88%, 95K active | both games came out this year; both updated frequently |
+| Home – Standout Games | Staff picks; much smaller player counts than Recommended | Superstar Baseball: 92%, 1,115 active; Rise of Nations: 87%, 2,204 active | both games came out in 2018 and 2025; both updated this month |
+| Charts – Top Trending | Games popular right now | Welcome to Bloxburg: 25.7K active; Vanguards: 2nd Anniversary: 66.9K active; Ragdoll Engine: 13.3K active | 2 of 4 in the row are new; all updated frequently |
+| Charts – Up-and-Coming | Rising games, many already with large player counts | Chop A Forest: 54.8K active; First Person Boxing: 2.4K active; Ragdoll Engine: 13.3K active | 2 of 4 in the row are new; all updated frequently |
+| Charts – Top Revisited | Games players come back to often | Vanguards: 2nd Anniversary: 66.9K active; [PATH 2 & MOBILE] Dragon: 4.5K active; Azure Latch: 11.7K active | 2 of 4 new; all updated frequently |
+| Charts – Top Rated | Very highly rated games, many with small player counts | Jule's RNG: 98%, 231 active; Container RNG: 98%, 430 active; Missiles vs Cities: 98%, 1.1K active; Anime Dice: 99%, 53K active |  Most of them came out between (2024-2026) |
+| Search ("tycoon") | Results for a genre keyword; top result is sponsored | WORLD TYCOON (sponsored): 90 active; Super Hero Tycoon: 792 active; Trading Tycoon: 4.2K active; Mansion Tycoon: 4.2K active |  2 of 4 are new (came out in 2026); all updated frequently |
+| Game page recommendations | "You might also like" on Welcome to Bloxburg | Royale High: 9.7K active; Makeup Mania!: 11K active; Adopt Me!: 361.1K active | 1 of 3 new; mostly big established names |
+| Friends | 0 friends → empty page, no suggestions | — | n/a |
+
+Charts row order: Top Trending, Up-and-Coming, Top Playing Now, Fun with Friends,
+Top Revisited, Top Earning, Top Paid Access, Top Rated, Most Popular.
+
+### Observations
+- **Home favors new hits.** "Recommended For You" showed mostly new games (created Jul–Aug 2026), but they were already very popular. Other surfaces showed a mix of new and old games.
+- **Paid placement exists.** Searching "tycoon," the first result was a sponsored game (WORLD TYCOON, 90 active players).
+- **Top Rated is dominated by small games.** Many had 98–99% ratings with only hundreds of players. Their high scores may partly come from having few votes, since small samples swing to extremes more easily.
+- **Rows repeat the same games.** Vanguards appeared in Top Trending, Top Revisited, and Top Earning.
+- **No social discovery for new users.** With 0 friends, the Friends page is empty and gives no suggestions.
+- **Home recommendations changed between visits.** Cause unknown.
+
+### Revised hypothesis
+I originally thought players struggle to find new, high-quality experiences because discovery surfaces favor games that are already popular. After looking at several surfaces, popularity isn't the only factor: sponsorship and ratings also shape what gets seen. My new hypothesis is that players struggle to find new, high-quality games because discovery is driven by popularity, paid placement, and ratings that can be unreliable for small games.
+
+
 
