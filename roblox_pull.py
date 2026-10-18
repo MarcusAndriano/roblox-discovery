@@ -39,11 +39,17 @@ def get(url, params=None):
 
 # ---- Step 1: which sorts (rows) does the Charts page show? ----
 def get_sorts():
-    data = get(
-        "https://apis.roblox.com/explore-api/v1/get-sorts",
-        params={"sessionId": SESSION_ID, "device": "computer", "country": "all"},
-    )
-    sorts = data.get("sorts", [])
+    sorts, token = [], None
+    while True:
+        params = {"sessionId": SESSION_ID, "device": "computer", "country": "all"}
+        if token:
+            params["sortsPageToken"] = token
+        data = get("https://apis.roblox.com/explore-api/v1/get-sorts", params=params)
+        page = data.get("sorts", [])
+        sorts += page
+        token = data.get("nextSortsPageToken")
+        if not token or not page:
+            break
     for s in sorts:
         print(s.get("sortId"), "|", s.get("sortDisplayName"))
     return sorts
@@ -60,7 +66,7 @@ def get_sort_content(sort_id):
 
 
 # ---- Step 3: enrich with details + votes (100 ids per call) ----
-def chunks(lst, n=100):
+def chunks(lst, n=50):
     for i in range(0, len(lst), n):
         yield lst[i:i + n]
 
