@@ -37,3 +37,6 @@ I originally thought players struggle to find new, high-quality experiences beca
 
 
 ## Oct 18: pull 1 complete. 26 rows, 879 games.
+
+## Oct 19 10:44am: pull 2, 885 games, 26 sorts (pull 1 had 879; small change = rows refresh over time)
+
