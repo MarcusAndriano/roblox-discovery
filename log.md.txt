@@ -18,7 +18,7 @@ Fresh account, incognito Chrome, US, computer.
 | Charts – Top Rated | Very highly rated games, many with small player counts | Jule's RNG: 98%, 231 active; Container RNG: 98%, 430 active; Missiles vs Cities: 98%, 1.1K active; Anime Dice: 99%, 53K active |  Most of them came out between (2024-2026) |
 | Search ("tycoon") | Results for a genre keyword; top result is sponsored | WORLD TYCOON (sponsored): 90 active; Super Hero Tycoon: 792 active; Trading Tycoon: 4.2K active; Mansion Tycoon: 4.2K active |  2 of 4 are new (came out in 2026); all updated frequently |
 | Game page recommendations | "You might also like" on Welcome to Bloxburg | Royale High: 9.7K active; Makeup Mania!: 11K active; Adopt Me!: 361.1K active | 1 of 3 new; mostly big established names |
-| Friends | 0 friends → empty page, no suggestions | — | n/a |
+| Friends | 0 friends → empty page, no suggestions | n/a | n/a |
 
 Charts row order: Top Trending, Up-and-Coming, Top Playing Now, Fun with Friends,
 Top Revisited, Top Earning, Top Paid Access, Top Rated, Most Popular.
@@ -30,6 +30,8 @@ Top Revisited, Top Earning, Top Paid Access, Top Rated, Most Popular.
 - **Rows repeat the same games.** Vanguards appeared in Top Trending, Top Revisited, and Top Earning.
 - **No social discovery for new users.** With 0 friends, the Friends page is empty and gives no suggestions.
 - **Home recommendations changed between visits.** Cause unknown.
+
+The best-rated small games I saw, like Jule’s RNG (98%, 231 players), only appeared in the Top Rated row, deep on the Charts page, not on Home.
 
 ### Revised hypothesis
 I originally thought players struggle to find new, high-quality experiences because discovery surfaces favor games that are already popular. After looking at several surfaces, popularity isn't the only factor: sponsorship and ratings also shape what gets seen. My new hypothesis is that players struggle to find new, high-quality games because discovery is driven by popularity, paid placement, and ratings that can be unreliable for small games.
