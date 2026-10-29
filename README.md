@@ -1,5 +1,5 @@
 # Roblox Discovery: Do Great Games Get Found?
-# By: Marcus Andriano
+By Marcus Andriano
 
 **Finding:** On Roblox, a game's rating barely predicts how many people play it (Spearman 0.16 across 921 featured games). 110 top-rated games sit below median players, while the top 10 games hold 38% of all players.
 
@@ -34,7 +34,7 @@
 
 ```
 roblox_pull.py               data collection script
-notebooks/01_explore.ipynb   cleaning, analysis, charts, takeaways
+notebook/01_explore.ipynb    cleaning, analysis, charts, takeaways
 charts/                      final charts
 data/raw/                    untouched API pulls
 data/clean/games.csv         one row per game with derived columns
@@ -49,4 +49,4 @@ pip install pandas numpy requests matplotlib statsmodels
 python roblox_pull.py
 ```
 
-Then run `notebooks/01_explore.ipynb` top to bottom. New pulls will give different numbers, since Charts change daily.
+Then run `notebook/01_explore.ipynb` top to bottom. New pulls will give different numbers, since Charts change daily.
